@@ -95,7 +95,7 @@ Everything is markdown. No Word docs unless explicitly asked for export. No Noti
 
 ## Repository organization
 
-You maintain `1-1-1-5-Loan-Factory-Project/` with this top-level structure:
+You maintain `1-plus-1-plus-1-equals-5-Loan-Factory-Project/` (https://github.com/jeremymac904/1-plus-1-plus-1-equals-5-Loan-Factory-Project) with this top-level structure:
 
 ```
 /README.md

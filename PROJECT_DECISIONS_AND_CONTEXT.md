@@ -26,6 +26,12 @@ The living record of every decision made on this program. If something is in thi
 | D18 | Comp design happens in parallel (does not gate June 1 launch) | Andre + Edward + Jeremy | May 2026 |
 | D19 | Bi-weekly Pilot Team Leader meeting chaired by Jeremy through August | Jeremy | May 2026 |
 | D20 | LOs may sit on multiple teams (e.g., bilingual + niche) — pick one primary for attribution | Jeremy | May 2026 |
+| D21 | Thuan confirmed ASAP start with a few teams (open program, capacity-based waves) | Thuan | May 15, 2026 |
+| D22 | Initial target divisions for Wave 1: Chinese, Vietnamese, Russian, Spanish, Korean | Thuan + Jeremy | May 15, 2026 |
+| D23 | Early expansion or pilot tracks: Latino, Veteran or Military, Investor or DSCR or Fix and Flip | Thuan + Jeremy | May 15, 2026 |
+| D24 | Google Sheets and existing systems are acceptable for launch tracking until TERA stack alignment is confirmed | Jeremy (working answer) | May 15, 2026 |
+| D25 | Jeremy may continue independently on docs, workflows, intake, and planning while coordinating with TERA on technical fit | Jeremy + Thuan (working answer) | May 15, 2026 |
+| D26 | Repo renamed: `1-plus-1-plus-1-equals-5-Loan-Factory-Project` (https://github.com/jeremymac904/1-plus-1-plus-1-equals-5-Loan-Factory-Project) | Jeremy | May 15, 2026 |
 
 ## Context behind the major decisions
 
@@ -88,6 +94,30 @@ Marketing pod and TERA pod confirm how many teams they can support in June. That
 Team Leader comp design (Andre + Edward + Finance) runs in parallel. Locked model target: August 30 (pilot retro). First wave Team Leaders operate under current comp during the pilot.
 
 **Why this matters:** Waiting for comp design to finish before launching would push June 1 to September or later. The pilot doesn't require new comp.
+
+### D21 — Thuan confirmed ASAP start
+
+Thuan explicitly directed the team to start with a few teams now rather than wait. Program is open, implementation is capacity-based, intake remains open continuously. Wave 1 begins June 1 with prioritized divisions.
+
+### D22 — Initial target divisions for Wave 1
+
+Chinese, Vietnamese, Russian, Spanish, Korean. These five lead because they are language-anchored, community-anchored, and have clear Team Leader candidates already known to LO Development.
+
+### D23 — Early expansion or pilot tracks
+
+Latino division, Veteran or Military focused team, and Investor or DSCR or Fix and Flip division are tracked as early expansion. They roll in as Marketing and TERA capacity opens. Latino is distinct from Spanish... Spanish anchors language identity, Latino anchors community identity. Both can coexist.
+
+### D24 — Google Sheets first for launch tracking
+
+For June 1, no custom dashboard, no app, no automation build. Manual tracking in Google Sheets covers team roster, division, status, kit status, TERA status, Compliance status, channel activity, and Pilot Leader meeting attendance. See `REPORTING_AND_TRACKING/google_sheets_launch_tracking_framework.md`.
+
+### D25 — Jeremy works independently while coordinating with TERA
+
+Jeremy continues on documentation, workflow design, intake form, planning, and operational coordination without waiting for TERA. Any technical build aligns with TERA's stack guidance before deeper development. TERA provides stack input (frontend, backend, database, auth, hosting, Firebase, repo standards, Claude Code or GitHub workflow). See `TERA_AND_TECH_REQUIREMENTS/tera_stack_alignment_questions.md`.
+
+### D26 — Repo renamed
+
+GitHub repo is now `1-plus-1-plus-1-equals-5-Loan-Factory-Project`. URL: https://github.com/jeremymac904/1-plus-1-plus-1-equals-5-Loan-Factory-Project. Local working folder retains its existing path. All external references use the new URL.
 
 ## Explicit bets
 

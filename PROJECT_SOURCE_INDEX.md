@@ -2,7 +2,7 @@
 
 The master index for every document in this repo. Updated when docs are added, moved, or archived.
 
-**Last updated:** May 15, 2026
+**Last updated:** May 15, 2026 (post repo rename + new doc drop)
 
 ## How to read this index
 
@@ -66,6 +66,8 @@ _Decks (PPTX, PDF, MD, PNGs) get added as named files. The 10-slide pilot deck a
 | --- | --- | --- | --- |
 | `MARKETING_SYSTEMS/README.md` | Folder overview | Marketing pod | Live |
 | `MARKETING_SYSTEMS/TEMPLATE_MARKETING_REQUEST.md` | Starter template for marketing requests | Marketing pod | Live |
+| `MARKETING_SYSTEMS/sales_call_teaser_talking_points.md` | 45-second teaser for the weekly sales call | Jeremy | Live |
+| `MARKETING_SYSTEMS/team_leader_meeting_talking_points.md` | 10–12 minute Team Leader meeting script | Jeremy | Live |
 
 ## TEAM_LEADER_PROGRAM/
 
@@ -81,30 +83,35 @@ _Decks (PPTX, PDF, MD, PNGs) get added as named files. The 10-slide pilot deck a
 | --- | --- | --- | --- |
 | `FORMS_AND_ONBOARDING/README.md` | Folder overview | Jeremy | Live |
 | `FORMS_AND_ONBOARDING/TEMPLATE_ONBOARDING_CHECKLIST.md` | Starter template for team onboarding | Jeremy | Live |
+| `FORMS_AND_ONBOARDING/team_leader_intake_form_fields.md` | Final field list for the May 25 Google Form | Jeremy | Live |
 
 ## LANGUAGE_DIVISIONS/
 
 | Path | Purpose | Owner | Status |
 | --- | --- | --- | --- |
 | `LANGUAGE_DIVISIONS/README.md` | Folder overview | Jeremy | Live |
-
-_Per-division docs (Spanish, Vietnamese, Russian, Korean, Veteran, Investor) get added as named files when first wave teams confirm._
+| `LANGUAGE_DIVISIONS/chinese_division.md` | Placeholder, Wave 1 target | Jeremy | Live |
+| `LANGUAGE_DIVISIONS/vietnamese_division.md` | Placeholder, Wave 1 target | Jeremy | Live |
+| `LANGUAGE_DIVISIONS/russian_division.md` | Placeholder, Wave 1 target | Jeremy | Live |
+| `LANGUAGE_DIVISIONS/spanish_division.md` | Placeholder, Wave 1 target | Jeremy | Live |
+| `LANGUAGE_DIVISIONS/korean_division.md` | Placeholder, Wave 1 target | Jeremy | Live |
+| `LANGUAGE_DIVISIONS/latino_division.md` | Placeholder, early expansion track | Jeremy | Live |
+| `LANGUAGE_DIVISIONS/veteran_military_division.md` | Placeholder, early expansion track | Jeremy | Live |
+| `LANGUAGE_DIVISIONS/investor_dscr_fix_and_flip_division.md` | Placeholder, likely early niche division | Jeremy | Live |
 
 ## REPORTING_AND_TRACKING/
 
 | Path | Purpose | Owner | Status |
 | --- | --- | --- | --- |
 | `REPORTING_AND_TRACKING/README.md` | Folder overview | Tara + Jeremy | Live |
-
-_Cadence dashboards, KPI rollups, monthly scorecards get added when first month data lands._
+| `REPORTING_AND_TRACKING/google_sheets_launch_tracking_framework.md` | Manual launch tracking framework (Google Sheets first) | Jeremy + Tara | Live |
 
 ## TERA_AND_TECH_REQUIREMENTS/
 
 | Path | Purpose | Owner | Status |
 | --- | --- | --- | --- |
 | `TERA_AND_TECH_REQUIREMENTS/README.md` | Folder overview | TERA pod | Live |
-
-_Platform config docs (Ally, portal, GBP, Email Drip) get added by TERA._
+| `TERA_AND_TECH_REQUIREMENTS/tera_stack_alignment_questions.md` | Open questions for TERA on stack alignment | Jeremy | Live |
 
 ## PROMPTS/
 

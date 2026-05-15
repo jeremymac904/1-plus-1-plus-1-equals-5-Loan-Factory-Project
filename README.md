@@ -64,7 +64,7 @@ See `CLAUDE_COWORK_PROJECT_INSTRUCTIONS.md` — upload into Claude CoWork.
 - Execution tracking
 - Future technical collaboration
 
-This repo: `1-1-1-5-Loan-Factory-Project`.
+This repo: `1-plus-1-plus-1-equals-5-Loan-Factory-Project` — https://github.com/jeremymac904/1-plus-1-plus-1-equals-5-Loan-Factory-Project
 
 ## Role of Marketing
 
@@ -81,7 +81,7 @@ Team Leaders recruit and approve LOs onto their team, submit intake, run the tea
 ## Repository structure
 
 ```
-1-1-1-5-Loan-Factory-Project/
+1-plus-1-plus-1-equals-5-Loan-Factory-Project/
 ├── README.md                                — this file
 ├── PROJECT_OVERVIEW.md                      — what the program is and why
 ├── VISION_AND_MISSION.md                    — long-arc direction

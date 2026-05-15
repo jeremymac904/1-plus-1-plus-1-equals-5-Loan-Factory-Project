@@ -2,7 +2,7 @@
 
 The live operational command queue. Updated continuously. If you want to know what's actually happening right now, this is the file.
 
-**Last updated:** May 15, 2026 — Jeremy
+**Last updated:** May 15, 2026 — Jeremy (post-Thuan direction + repo rename)
 
 ## How this works
 
@@ -24,6 +24,17 @@ The live operational command queue. Updated continuously. If you want to know wh
 | A6 | TERA pod capacity confirmation | Tara → TERA lead | May 18 | Awaiting |
 | A7 | Confirm Compliance pod lead and bilingual reviewer pool | Jeremy → Compliance | May 22 | Pending |
 | A8 | Confirm single Marketing rep + single TERA rep for Pilot Leader meeting | Tara | May 18 | Pending |
+| A9 | Reply to Thuan, Khai, Thanh, and TERA asking for stack guidance | Jeremy | May 15 | Pending |
+| A10 | Add Khai and Thanh as GitHub collaborators if approved by TERA leadership | Jeremy | May 16 | Pending |
+| A11 | Tara confirms Marketing and TERA capacity numbers | Tara | May 18 | Pending |
+| A12 | Kevin provides Team Leader CSV or Excel list | Kevin | May 18 | Pending |
+| A13 | Prepare Team Leader intake form (Google Form build from `FORMS_AND_ONBOARDING/team_leader_intake_form_fields.md`) | Jeremy | May 21 | Pending |
+| A14 | Prepare sales call teaser slide and talking points | Jeremy | May 20 | Pending |
+| A15 | Prepare Tuesday leadership meeting package (deck + repo links + agenda) | Jeremy | May 18 | Pending |
+| A16 | TERA confirms whether Firebase is part of current stack | TERA via Tara | May 22 | Pending |
+| A17 | TERA confirms preferred GitHub collaboration workflow | TERA via Tara | May 22 | Pending |
+| A18 | Stand up Google Sheets launch tracking sheet from framework doc | Jeremy | May 22 | Pending |
+| A19 | Confirm Wave 1 division priority order with Thuan and Andre | Jeremy | May 19 | Pending |
 
 ## Awaiting feedback
 
