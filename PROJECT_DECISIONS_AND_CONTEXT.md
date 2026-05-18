@@ -36,6 +36,10 @@ The living record of every decision made on this program. If something is in thi
 | D28 | Every team-facing surface (website, LO pages, newsletter, drip, ALLY, GBP, realtor outreach, optional video and podcast, reporting) reads from one master team marketing record sourced from intake | Jeremy | May 18, 2026 |
 | D29 | Wave 1 master team marketing record lives in Tab 1 of `1+1+1=5 Intake Submissions`; Phase 2 home is TERA-backed once stack alignment is confirmed | Jeremy | May 18, 2026 |
 | D30 | Same branding and content structure must carry across every team-facing surface; drift triggers a kit reissue and a full redeploy, not piecemeal patches | Jeremy + Marketing | May 18, 2026 |
+| D31 | LO Persona Profile becomes the reusable AI identity layer; one persona source, multiple AI use cases (ALLY captions, AI Twin, email, text, video scripts, language groups, team content) | Jeremy | May 18, 2026 |
+| D32 | AI Twin Persona Intake (existing form, 119 responses) is the seed for the approved LO Persona Profile and can support ALLY's "Enhance Caption with AI" once integration is wired | Jeremy | May 18, 2026 |
+| D33 | Persona controls voice and style only; persona does not approve content, override compliance, or replace human review | Jeremy + Compliance | May 18, 2026 |
+| D34 | LO Persona Profile maps to Loan Factory SSO identity when technically possible; manual upload via ALLY profile settings is the fallback until SSO mapping is wired | Jeremy | May 18, 2026 |
 
 ## Context behind the major decisions
 
@@ -150,6 +154,34 @@ Same logo, palette, voice, structure, and disclosures across website, LO pages, 
 **Why this matters:** A borrower who finds a team via GBP, then opens its newsletter, then sees its Instagram post, then visits its website should see one consistent team. Drift kills trust faster than slow growth does.
 
 See `MARKETING_SYSTEMS/brand_sync_requirements.md`.
+
+### D31 — LO Persona Profile is the reusable AI identity layer
+
+One LO persona source. Multiple AI consumers. The approved LO Persona Profile is read by ALLY caption generation, AI Twin, email and text drafting, video script generation, language-group content, and team-level content tools. We do not let every AI tool maintain its own persona store.
+
+**Why this matters:** If each tool keeps its own persona, brand voice drifts, LOs have to redo their voice every time, and updates never propagate. One source means consistency and faster iteration.
+
+See `TERA_AND_TECH_REQUIREMENTS/lo_persona_profile_ally_integration_requirements.md`.
+
+### D32 — AI Twin Persona Intake supports ALLY caption generation
+
+The existing AI Twin Persona Intake form (already at 119 responses) feeds the approved LO Persona Profile. ALLY's "Enhance Caption with AI" feature should eventually read that profile so generated captions sound like the actual loan officer.
+
+**Why this matters:** Generic AI captions are easy to spot and easy to dismiss. Persona-aware captions land better, get edited less, and protect brand voice without forcing the LO to write from scratch.
+
+See `WORKFLOWS/ai_twin_to_ally_caption_workflow.md`.
+
+### D33 — Persona controls voice and style only
+
+Persona affects tone, audience, word choice, formality. Persona does not approve content, override required disclosures (NMLS, EHL, state-specific, trigger terms, $2,000 Best Price Guarantee), replace template-level compliance review, or replace human review. Compliance and persona layer separately and both apply.
+
+**Why this matters:** Persona that overrides compliance is a compliance gap waiting to ship. The line stays bright.
+
+### D34 — Persona profile maps to SSO when possible, manual upload fallback otherwise
+
+The LO Persona Profile is keyed off the LO's Loan Factory SSO subject claim when technical mapping is wired. Until SSO mapping is wired, the fallback is for the LO to upload or paste their approved persona document into ALLY's profile settings. Both paths produce the same persona-aware captions.
+
+**Why this matters:** Waiting for full SSO integration would push every ALLY caption improvement to Phase 2. The manual upload path unblocks LOs now while TERA completes the long-term integration.
 
 ## Explicit bets
 

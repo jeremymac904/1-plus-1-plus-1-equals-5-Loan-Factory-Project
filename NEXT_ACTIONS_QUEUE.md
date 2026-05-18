@@ -2,7 +2,7 @@
 
 The live operational command queue. Updated continuously. If you want to know what's actually happening right now, this is the file.
 
-**Last updated:** May 18, 2026 — Jeremy (ALLY stack and marketing system sync direction added)
+**Last updated:** May 18, 2026 — Jeremy (LO Persona Profile and AI Twin integration for ALLY added)
 
 ## How this works
 
@@ -40,6 +40,10 @@ The live operational command queue. Updated continuously. If you want to know wh
 | A22 | Walk Marketing pod through the brand sync requirements doc | Jeremy + Tara | May 22 | Pending |
 | A23 | Walk TERA through the team marketing system sync workflow doc | Jeremy + Tara | May 22 | Pending |
 | A24 | Confirm Tab 1 (Teams) column ordering of the master team marketing record before June 1 | Jeremy + Marketing | May 27 | Pending |
+| A25 | Share LO Persona Profile + ALLY integration requirements doc with Tara, Thanh, Dat, LO Dev, Marketing, Compliance | Jeremy | May 20 | Pending |
+| A26 | Walk LO Development through the AI Twin to ALLY caption workflow and persona review responsibilities | Jeremy + LO Dev | May 22 | Pending |
+| A27 | Confirm interim store location for approved LO Persona Profiles (Wave 1 fallback) | Jeremy + LO Dev | May 25 | Pending |
+| A28 | Confirm persona review checklist and SLA with Marketing and LO Dev | Marketing + LO Dev | May 29 | Pending |
 
 ## ALLY discovery items
 
@@ -55,6 +59,23 @@ The live operational command queue. Updated continuously. If you want to know wh
 | AL8 | Confirm what reporting ALLY can surface at team and division level | TERA + Marketing | May 27 | Pending |
 | AL9 | Confirm whether Dat has existing TERA integration work touching ALLY | Dat via Tara | May 27 | Pending |
 | AL10 | Confirm Thuan's long-term framing of ALLY (social layer vs broader content hub) | Thuan via Andre | May 29 | Pending |
+
+## LO Persona Profile and AI Twin discovery items
+
+| # | Item | Owner | Target | Status |
+| --- | --- | --- | --- | --- |
+| P1 | Confirm who owns the AI Twin Persona Intake data today | Jeremy + LO Dev | May 22 | Pending |
+| P2 | Confirm TERA can map AI Twin profile data to Loan Factory SSO identity | TERA via Tara | May 27 | Pending |
+| P3 | Confirm whether ALLY can store a per-LO persona profile | Thanh + Dat via Tara | May 27 | Pending |
+| P4 | Confirm whether ALLY's "Enhance Caption with AI" can use per-LO persona context at inference time | Thanh + Dat via Tara | May 27 | Pending |
+| P5 | Confirm whether ALLY profile settings can include persona upload, persona editor, or persona selection | Thanh + Dat via Tara | May 27 | Pending |
+| P6 | Confirm whether persona can also be scoped at the team or language-group level | Thanh + Dat + Marketing | May 29 | Pending |
+| P7 | Confirm Marketing and LO Development review and approval flow before persona is active | Marketing + LO Dev | May 29 | Pending |
+| P8 | Confirm Compliance guardrails sit separately from persona voice | Compliance + TERA | May 29 | Pending |
+| P9 | Confirm persona-generated content still uses approved disclosure templates automatically | Compliance + TERA | May 29 | Pending |
+| P10 | Confirm long-term home for the approved LO Persona Profile (ALLY Postgres vs separate TERA persona service vs both) | TERA leadership | June 12 | Pending |
+| P11 | Confirm what Jeremy should avoid building separately so TERA does not end up with two persona systems | TERA leadership | May 22 | Pending |
+| P12 | Confirm ALLY caption service's AI provider and data handling posture | Thanh + Dat | May 29 | Pending |
 
 ## Awaiting feedback
 

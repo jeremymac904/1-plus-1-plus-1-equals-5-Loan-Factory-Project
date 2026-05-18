@@ -2,7 +2,7 @@
 
 The master index for every document in this repo. Updated when docs are added, moved, or archived.
 
-**Last updated:** May 18, 2026 (ALLY stack and marketing system sync direction added)
+**Last updated:** May 18, 2026 (LO Persona Profile and AI Twin integration requirements for ALLY added)
 
 ## How to read this index
 
@@ -53,6 +53,7 @@ _Decks (PPTX, PDF, MD, PNGs) get added as named files. The 10-slide pilot deck a
 | `WORKFLOWS/README.md` | Folder overview | Jeremy | Live |
 | `WORKFLOWS/TEMPLATE_WORKFLOW_DOC.md` | Starter template for workflow docs | Jeremy | Live |
 | `WORKFLOWS/team_marketing_system_sync_workflow.md` | End-to-end sync from intake to every team-facing surface | Jeremy + Marketing + TERA | Live |
+| `WORKFLOWS/ai_twin_to_ally_caption_workflow.md` | AI Twin Persona Intake → approved LO Persona Profile → SSO map → ALLY caption generation, with manual upload fallback | Jeremy + LO Dev + Marketing + TERA | Live |
 
 ## AUTOMATIONS/
 
@@ -70,6 +71,7 @@ _Decks (PPTX, PDF, MD, PNGs) get added as named files. The 10-slide pilot deck a
 | `MARKETING_SYSTEMS/sales_call_teaser_talking_points.md` | 45-second teaser for the weekly sales call | Jeremy | Live |
 | `MARKETING_SYSTEMS/team_leader_meeting_talking_points.md` | 10–12 minute Team Leader meeting script | Jeremy | Live |
 | `MARKETING_SYSTEMS/brand_sync_requirements.md` | Branding and content structure consistency across every team-facing surface | Marketing + Jeremy | Live |
+| `MARKETING_SYSTEMS/lo_persona_content_generation_requirements.md` | How Marketing and LO Development use the LO Persona Profile for content across captions, emails, texts, language groups, recruiting | Marketing + LO Dev + Jeremy | Live |
 
 ## TEAM_LEADER_PROGRAM/
 
@@ -87,6 +89,7 @@ _Decks (PPTX, PDF, MD, PNGs) get added as named files. The 10-slide pilot deck a
 | `FORMS_AND_ONBOARDING/TEMPLATE_ONBOARDING_CHECKLIST.md` | Starter template for team onboarding | Jeremy | Live |
 | `FORMS_AND_ONBOARDING/team_leader_intake_form_fields.md` | Final field list for the May 25 Google Form | Jeremy | Live |
 | `FORMS_AND_ONBOARDING/intake_to_marketing_system_master_record.md` | Master team marketing record schema and field-by-field mapping from intake to downstream systems | Jeremy + Marketing + TERA | Live |
+| `FORMS_AND_ONBOARDING/ai_twin_persona_to_master_profile_record.md` | Master LO Persona Profile record schema, review workflow, and do-not-store fields | Jeremy + LO Dev + Marketing + TERA | Live |
 
 ## LANGUAGE_DIVISIONS/
 
@@ -116,6 +119,7 @@ _Decks (PPTX, PDF, MD, PNGs) get added as named files. The 10-slide pilot deck a
 | `TERA_AND_TECH_REQUIREMENTS/README.md` | Folder overview | TERA pod | Live |
 | `TERA_AND_TECH_REQUIREMENTS/tera_stack_alignment_questions.md` | Open questions for TERA on stack alignment | Jeremy | Live |
 | `TERA_AND_TECH_REQUIREMENTS/ally_stack_and_integration_requirements.md` | ALLY stack discovery and integration requirements; frames ALLY as the social and campaign execution layer | Jeremy + TERA + Marketing | Live |
+| `TERA_AND_TECH_REQUIREMENTS/lo_persona_profile_ally_integration_requirements.md` | How an approved LO Persona Profile integrates with ALLY caption generation and broader AI Twin / AI LOA strategy | Jeremy + TERA + Marketing + LO Dev | Live |
 
 ## PROMPTS/
 
@@ -181,5 +185,9 @@ If you're looking for something:
 | "What is ALLY's role in the program?" | `TERA_AND_TECH_REQUIREMENTS/ally_stack_and_integration_requirements.md` + `PROJECT_DECISIONS_AND_CONTEXT.md` D27 |
 | "How does a single intake drive every surface?" | `WORKFLOWS/team_marketing_system_sync_workflow.md` + `FORMS_AND_ONBOARDING/intake_to_marketing_system_master_record.md` |
 | "How do we keep branding consistent across surfaces?" | `MARKETING_SYSTEMS/brand_sync_requirements.md` |
+| "What is the LO Persona Profile and how does it fit ALLY?" | `TERA_AND_TECH_REQUIREMENTS/lo_persona_profile_ally_integration_requirements.md` + `PROJECT_DECISIONS_AND_CONTEXT.md` D31, D32, D33, D34 |
+| "How does an LO persona end up in an ALLY caption?" | `WORKFLOWS/ai_twin_to_ally_caption_workflow.md` |
+| "What does the LO Persona Profile record look like and what is off-limits?" | `FORMS_AND_ONBOARDING/ai_twin_persona_to_master_profile_record.md` |
+| "How should Marketing use persona for content?" | `MARKETING_SYSTEMS/lo_persona_content_generation_requirements.md` |
 
 If you can't find it: add it.
