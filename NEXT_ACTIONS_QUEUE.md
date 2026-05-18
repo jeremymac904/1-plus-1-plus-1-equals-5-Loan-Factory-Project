@@ -2,7 +2,7 @@
 
 The live operational command queue. Updated continuously. If you want to know what's actually happening right now, this is the file.
 
-**Last updated:** May 15, 2026 — Jeremy (post-Thuan direction + repo rename)
+**Last updated:** May 18, 2026 — Jeremy (ALLY stack and marketing system sync direction added)
 
 ## How this works
 
@@ -35,6 +35,26 @@ The live operational command queue. Updated continuously. If you want to know wh
 | A17 | TERA confirms preferred GitHub collaboration workflow | TERA via Tara | May 22 | Pending |
 | A18 | Stand up Google Sheets launch tracking sheet from framework doc | Jeremy | May 22 | Pending |
 | A19 | Confirm Wave 1 division priority order with Thuan and Andre | Jeremy | May 19 | Pending |
+| A20 | Share ALLY stack and integration requirements doc with Tara, Khai, Thanh, Dat | Jeremy | May 19 | Pending |
+| A21 | Confirm with Thuan and Andre that ALLY is documented as the social and campaign execution layer (not the whole program) | Jeremy | May 20 | Pending |
+| A22 | Walk Marketing pod through the brand sync requirements doc | Jeremy + Tara | May 22 | Pending |
+| A23 | Walk TERA through the team marketing system sync workflow doc | Jeremy + Tara | May 22 | Pending |
+| A24 | Confirm Tab 1 (Teams) column ordering of the master team marketing record before June 1 | Jeremy + Marketing | May 27 | Pending |
+
+## ALLY discovery items
+
+| # | Item | Owner | Target | Status |
+| --- | --- | --- | --- | --- |
+| AL1 | Confirm whether ALLY is a third-party SaaS, internal build, or hybrid | TERA via Tara | May 22 | Pending |
+| AL2 | Confirm whether ALLY supports team or group accounts natively | TERA via Tara | May 22 | Pending |
+| AL3 | Confirm ALLY user roles and permissions configurable today | TERA via Tara | May 22 | Pending |
+| AL4 | Confirm whether ALLY has an API or webhook surface | TERA via Tara | May 22 | Pending |
+| AL5 | Confirm how ALLY currently connects to the Loan Factory portal | TERA via Tara | May 22 | Pending |
+| AL6 | Confirm whether template-level compliance review can be enforced in ALLY | Compliance + TERA | May 27 | Pending |
+| AL7 | Confirm whether branding from the team kit can be applied at the team level inside ALLY | Marketing + TERA | May 27 | Pending |
+| AL8 | Confirm what reporting ALLY can surface at team and division level | TERA + Marketing | May 27 | Pending |
+| AL9 | Confirm whether Dat has existing TERA integration work touching ALLY | Dat via Tara | May 27 | Pending |
+| AL10 | Confirm Thuan's long-term framing of ALLY (social layer vs broader content hub) | Thuan via Andre | May 29 | Pending |
 
 ## Awaiting feedback
 
@@ -53,6 +73,8 @@ The live operational command queue. Updated continuously. If you want to know wh
 | M2 | Named Marketing rep per first wave team (30-day support plan) | Marketing pod lead | May 29 |
 | M3 | Team kit v1 ship (templates + brand kit + channel checklist) | Marketing pod | May 27 |
 | M4 | Google Form intake field review with Jeremy | Marketing | May 21 |
+| M5 | Marketing review of `brand_sync_requirements.md` and confirm typography, photo specs, and template inheritance assumptions | Marketing pod | May 27 |
+| M6 | Marketing review of `intake_to_marketing_system_master_record.md` field mapping | Marketing pod | May 27 |
 
 ## Waiting on TERA
 
@@ -64,6 +86,9 @@ The live operational command queue. Updated continuously. If you want to know wh
 | T4 | Email Drip sequence template ready | TERA pod | May 27 |
 | T5 | GBP claim status checked per first wave team | TERA pod | May 22 |
 | T6 | Tracking dashboard surface ready (Ally + portal + GBP) | TERA pod | May 29 |
+| T7 | TERA review of `ally_stack_and_integration_requirements.md` and confirm or correct each Known / Assumed section | TERA via Tara | May 27 |
+| T8 | TERA review of `team_marketing_system_sync_workflow.md` and flag any surface that requires a different ownership split | TERA via Tara | May 27 |
+| T9 | TERA confirms Phase 2 home for the master team marketing record | TERA via Tara | June 30 |
 
 ## Launch blockers
 

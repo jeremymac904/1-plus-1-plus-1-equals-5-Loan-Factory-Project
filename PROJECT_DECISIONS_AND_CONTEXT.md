@@ -32,6 +32,10 @@ The living record of every decision made on this program. If something is in thi
 | D24 | Google Sheets and existing systems are acceptable for launch tracking until TERA stack alignment is confirmed | Jeremy (working answer) | May 15, 2026 |
 | D25 | Jeremy may continue independently on docs, workflows, intake, and planning while coordinating with TERA on technical fit | Jeremy + Thuan (working answer) | May 15, 2026 |
 | D26 | Repo renamed: `1-plus-1-plus-1-equals-5-Loan-Factory-Project` (https://github.com/jeremymac904/1-plus-1-plus-1-equals-5-Loan-Factory-Project) | Jeremy | May 15, 2026 |
+| D27 | ALLY is the social and campaign execution layer inside a larger Loan Factory team marketing system, not the whole program | Jeremy | May 18, 2026 |
+| D28 | Every team-facing surface (website, LO pages, newsletter, drip, ALLY, GBP, realtor outreach, optional video and podcast, reporting) reads from one master team marketing record sourced from intake | Jeremy | May 18, 2026 |
+| D29 | Wave 1 master team marketing record lives in Tab 1 of `1+1+1=5 Intake Submissions`; Phase 2 home is TERA-backed once stack alignment is confirmed | Jeremy | May 18, 2026 |
+| D30 | Same branding and content structure must carry across every team-facing surface; drift triggers a kit reissue and a full redeploy, not piecemeal patches | Jeremy + Marketing | May 18, 2026 |
 
 ## Context behind the major decisions
 
@@ -118,6 +122,34 @@ Jeremy continues on documentation, workflow design, intake form, planning, and o
 ### D26 — Repo renamed
 
 GitHub repo is now `1-plus-1-plus-1-equals-5-Loan-Factory-Project`. URL: https://github.com/jeremymac904/1-plus-1-plus-1-equals-5-Loan-Factory-Project. Local working folder retains its existing path. All external references use the new URL.
+
+### D27 — ALLY is one layer, not the program
+
+ALLY is the social and campaign execution layer. The full team marketing system also coordinates intake, branding, website team pages, LO landing pages, portal newsletters, Email Drip, GBP, realtor outreach, compliance review, marketing production, TERA setup, and reporting. Documentation, planning, and any future build treat ALLY as one surface inside the stack, not the stack itself.
+
+**Why this matters:** If we treat ALLY as the program, we under-resource website, newsletters, drip, GBP, and compliance. Framing ALLY as one execution layer keeps the rest of the system funded and visible.
+
+See `TERA_AND_TECH_REQUIREMENTS/ally_stack_and_integration_requirements.md` for the ALLY discovery questions.
+
+### D28 — Master team marketing record drives every surface
+
+Intake produces one master record per team. Every downstream surface (website, LO pages, newsletter, drip, ALLY, GBP, realtor outreach, optional video and podcast, reporting) reads from the master record. No shadow data, no duplicate entry.
+
+**Why this matters:** Without a single source of truth, every surface drifts from every other one. The team's name, brand, languages, niche, channels, cadence, and disclosures live in one place and propagate from there.
+
+See `FORMS_AND_ONBOARDING/intake_to_marketing_system_master_record.md`.
+
+### D29 — Master record lives in Sheets for Wave 1, TERA-backed in Phase 2
+
+For Wave 1, Tab 1 (Teams) of `1+1+1=5 Intake Submissions` Google Sheet is the master record. In Phase 2, the master record migrates into TERA-backed storage once `tera_stack_alignment_questions.md` and `ally_stack_and_integration_requirements.md` are answered. Migration path is documented before migration begins, not after.
+
+### D30 — Brand consistency across every surface
+
+Same logo, palette, voice, structure, and disclosures across website, LO pages, newsletter, drip, ALLY, GBP, realtor outreach, video and podcast (when teams opt in), and internal reporting. Drift triggers a kit reissue and a full redeploy across surfaces — not a patch on one channel.
+
+**Why this matters:** A borrower who finds a team via GBP, then opens its newsletter, then sees its Instagram post, then visits its website should see one consistent team. Drift kills trust faster than slow growth does.
+
+See `MARKETING_SYSTEMS/brand_sync_requirements.md`.
 
 ## Explicit bets
 

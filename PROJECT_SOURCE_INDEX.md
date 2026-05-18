@@ -2,7 +2,7 @@
 
 The master index for every document in this repo. Updated when docs are added, moved, or archived.
 
-**Last updated:** May 15, 2026 (post repo rename + new doc drop)
+**Last updated:** May 18, 2026 (ALLY stack and marketing system sync direction added)
 
 ## How to read this index
 
@@ -52,6 +52,7 @@ _Decks (PPTX, PDF, MD, PNGs) get added as named files. The 10-slide pilot deck a
 | --- | --- | --- | --- |
 | `WORKFLOWS/README.md` | Folder overview | Jeremy | Live |
 | `WORKFLOWS/TEMPLATE_WORKFLOW_DOC.md` | Starter template for workflow docs | Jeremy | Live |
+| `WORKFLOWS/team_marketing_system_sync_workflow.md` | End-to-end sync from intake to every team-facing surface | Jeremy + Marketing + TERA | Live |
 
 ## AUTOMATIONS/
 
@@ -68,6 +69,7 @@ _Decks (PPTX, PDF, MD, PNGs) get added as named files. The 10-slide pilot deck a
 | `MARKETING_SYSTEMS/TEMPLATE_MARKETING_REQUEST.md` | Starter template for marketing requests | Marketing pod | Live |
 | `MARKETING_SYSTEMS/sales_call_teaser_talking_points.md` | 45-second teaser for the weekly sales call | Jeremy | Live |
 | `MARKETING_SYSTEMS/team_leader_meeting_talking_points.md` | 10–12 minute Team Leader meeting script | Jeremy | Live |
+| `MARKETING_SYSTEMS/brand_sync_requirements.md` | Branding and content structure consistency across every team-facing surface | Marketing + Jeremy | Live |
 
 ## TEAM_LEADER_PROGRAM/
 
@@ -84,6 +86,7 @@ _Decks (PPTX, PDF, MD, PNGs) get added as named files. The 10-slide pilot deck a
 | `FORMS_AND_ONBOARDING/README.md` | Folder overview | Jeremy | Live |
 | `FORMS_AND_ONBOARDING/TEMPLATE_ONBOARDING_CHECKLIST.md` | Starter template for team onboarding | Jeremy | Live |
 | `FORMS_AND_ONBOARDING/team_leader_intake_form_fields.md` | Final field list for the May 25 Google Form | Jeremy | Live |
+| `FORMS_AND_ONBOARDING/intake_to_marketing_system_master_record.md` | Master team marketing record schema and field-by-field mapping from intake to downstream systems | Jeremy + Marketing + TERA | Live |
 
 ## LANGUAGE_DIVISIONS/
 
@@ -112,6 +115,7 @@ _Decks (PPTX, PDF, MD, PNGs) get added as named files. The 10-slide pilot deck a
 | --- | --- | --- | --- |
 | `TERA_AND_TECH_REQUIREMENTS/README.md` | Folder overview | TERA pod | Live |
 | `TERA_AND_TECH_REQUIREMENTS/tera_stack_alignment_questions.md` | Open questions for TERA on stack alignment | Jeremy | Live |
+| `TERA_AND_TECH_REQUIREMENTS/ally_stack_and_integration_requirements.md` | ALLY stack discovery and integration requirements; frames ALLY as the social and campaign execution layer | Jeremy + TERA + Marketing | Live |
 
 ## PROMPTS/
 
@@ -174,5 +178,8 @@ If you're looking for something:
 | "What does each division look like?" | `LANGUAGE_DIVISIONS/` |
 | "How do we measure success?" | `REPORTING_AND_TRACKING/` + the KPI doc in the Drive execution folder |
 | "What did the last Pilot Leader meeting decide?" | `MEETING_NOTES/` — latest date-stamped recap |
+| "What is ALLY's role in the program?" | `TERA_AND_TECH_REQUIREMENTS/ally_stack_and_integration_requirements.md` + `PROJECT_DECISIONS_AND_CONTEXT.md` D27 |
+| "How does a single intake drive every surface?" | `WORKFLOWS/team_marketing_system_sync_workflow.md` + `FORMS_AND_ONBOARDING/intake_to_marketing_system_master_record.md` |
+| "How do we keep branding consistent across surfaces?" | `MARKETING_SYSTEMS/brand_sync_requirements.md` |
 
 If you can't find it: add it.
