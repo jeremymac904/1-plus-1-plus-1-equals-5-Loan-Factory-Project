@@ -40,6 +40,10 @@ The living record of every decision made on this program. If something is in thi
 | D32 | AI Twin Persona Intake (existing form, 119 responses) is the seed for the approved LO Persona Profile and can support ALLY's "Enhance Caption with AI" once integration is wired | Jeremy | May 18, 2026 |
 | D33 | Persona controls voice and style only; persona does not approve content, override compliance, or replace human review | Jeremy + Compliance | May 18, 2026 |
 | D34 | LO Persona Profile maps to Loan Factory SSO identity when technically possible; manual upload via ALLY profile settings is the fallback until SSO mapping is wired | Jeremy | May 18, 2026 |
+| D35 | 1+1+1=5 initial focus is language groups, not niche groups; niche groups follow once the language-group operating model is proven | Jeremy + Andre + Thuan | May 18, 2026 |
+| D36 | Email newsletters, drip campaigns, website templates, Google Business Profile, YouTube, and reporting require separate platform-owner discovery before any technical work begins | Jeremy + Marketing | May 18, 2026 |
+| D37 | A master group record is required for language-group setup and must exist before the first channel goes live | Jeremy | May 18, 2026 |
+| D38 | Wave 1 (June 1) stays manual and lightweight; no custom dashboard, no new software, no automated cross-system sync; technical alignment runs in parallel for Phase 2 | Jeremy | May 18, 2026 |
 
 ## Context behind the major decisions
 
@@ -182,6 +186,30 @@ Persona affects tone, audience, word choice, formality. Persona does not approve
 The LO Persona Profile is keyed off the LO's Loan Factory SSO subject claim when technical mapping is wired. Until SSO mapping is wired, the fallback is for the LO to upload or paste their approved persona document into ALLY's profile settings. Both paths produce the same persona-aware captions.
 
 **Why this matters:** Waiting for full SSO integration would push every ALLY caption improvement to Phase 2. The manual upload path unblocks LOs now while TERA completes the long-term integration.
+
+### D35 — Initial focus is language groups, not niche groups
+
+Wave 1 prioritizes Chinese, Vietnamese, Russian, Spanish, Korean, and Latino language groups. Niche groups (Veteran/Military, Investor/DSCR/Fix-and-Flip) are tracked as early expansion but follow the language-group operating model after it is proven.
+
+**Why this matters:** Language anchors community, distinct geography, and clear point-person candidates. Niche groups are valuable but they fragment audience more than language groups do. Proving the model on one language group first gives every later group a working playbook.
+
+### D36 — Newsletter, drip, website, GBP, YouTube, and reporting require separate discovery
+
+Each of these channels has its own platform owner. None of them are assumed to be ALLY's responsibility. Marketing must confirm platform ownership for each before any technical work begins. Confirming this is in `NEXT_ACTIONS_QUEUE.md`.
+
+**Why this matters:** Building inside the wrong platform burns calendar and budget. The June 1 path does not require these channels to be automated, but Phase 2 will, and Phase 2 cannot start without these answers.
+
+### D37 — Master group record is required before any channel goes live
+
+A single source of truth per language group must exist before the first channel goes live. Wave 1 home: Tab 1 of `1+1+1=5 Intake Submissions` Google Sheet. Phase 2 home: TERA-backed once stack alignment confirms a group/team data model.
+
+**Why this matters:** Without one record, every channel drifts. The team name, brand, languages, niche, roster, channels, and disclosures live in one place and propagate from there.
+
+### D38 — Wave 1 stays manual and lightweight; technical alignment runs in parallel
+
+No custom dashboard. No new software. No automated cross-system sync. ALLY and LO Persona Profile discovery supports Phase 2 and is not a June 1 blocker. Marketing, TERA, and Compliance technical work proceeds independently of June 1 manual execution.
+
+**Why this matters:** The June 1 launch's job is to prove the operating model with one language group. The longer technical work has its own clock. Confusing the two slips launch.
 
 ## Explicit bets
 

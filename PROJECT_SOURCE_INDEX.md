@@ -2,7 +2,7 @@
 
 The master index for every document in this repo. Updated when docs are added, moved, or archived.
 
-**Last updated:** May 18, 2026 (LO Persona Profile and AI Twin integration requirements for ALLY added)
+**Last updated:** May 18, 2026 (executive README cleanup; STRATEGY and ARCHITECTURE folders added)
 
 ## How to read this index
 
@@ -28,6 +28,21 @@ Each row: `Path | Purpose | Owner | Status`
 | `NEXT_ACTIONS_QUEUE.md` | Live operational command queue | Jeremy | Live |
 | `REPOSITORY_COLLABORATION_GUIDE.md` | How TERA + Marketing use this repo | Jeremy | Live |
 | `PROJECT_SOURCE_INDEX.md` | This file | Jeremy | Live |
+
+## STRATEGY/
+
+| Path | Purpose | Owner | Status |
+| --- | --- | --- | --- |
+| `STRATEGY/ai_boardroom_architecture_readout_summary.md` | Summary of the May 2026 AI Boardroom Architecture Review for the 1+1+1=5 program | Jeremy | Live |
+| `STRATEGY/one_ai_agent_per_loan_officer_strategy_summary.md` | Summary of the broader Loan Factory one-AI-agent-per-LO strategic plan | Jeremy | Live |
+| `STRATEGY/lo_persona_profile_as_ai_identity_layer.md` | Strategic role of the LO Persona Profile as the reusable AI identity layer that bridges 1+1+1=5 and the broader AI Twin strategy | Jeremy | Live |
+
+## ARCHITECTURE/
+
+| Path | Purpose | Owner | Status |
+| --- | --- | --- | --- |
+| `ARCHITECTURE/five_layer_marketing_system_architecture.md` | Five-layer system architecture (intake, master record, kit, channels, tracking and governance) | Jeremy + TERA + Marketing | Live |
+| `ARCHITECTURE/lo_profile_to_ally_to_ai_twin_system_map.md` | System map showing persona flow from intake to ALLY to AI Twin with compliance layered separately | Jeremy + TERA + Marketing + Compliance | Live |
 
 ## MEETING_NOTES/
 
@@ -189,5 +204,9 @@ If you're looking for something:
 | "How does an LO persona end up in an ALLY caption?" | `WORKFLOWS/ai_twin_to_ally_caption_workflow.md` |
 | "What does the LO Persona Profile record look like and what is off-limits?" | `FORMS_AND_ONBOARDING/ai_twin_persona_to_master_profile_record.md` |
 | "How should Marketing use persona for content?" | `MARKETING_SYSTEMS/lo_persona_content_generation_requirements.md` |
+| "What does the AI Boardroom Architecture Readout say?" | `STRATEGY/ai_boardroom_architecture_readout_summary.md` |
+| "What is the one-AI-agent-per-LO strategy?" | `STRATEGY/one_ai_agent_per_loan_officer_strategy_summary.md` |
+| "How do the five layers fit together?" | `ARCHITECTURE/five_layer_marketing_system_architecture.md` |
+| "How does persona flow into ALLY and the AI Twin?" | `ARCHITECTURE/lo_profile_to_ally_to_ai_twin_system_map.md` |
 
 If you can't find it: add it.

@@ -2,7 +2,7 @@
 
 The live operational command queue. Updated continuously. If you want to know what's actually happening right now, this is the file.
 
-**Last updated:** May 18, 2026 — Jeremy (LO Persona Profile and AI Twin integration for ALLY added)
+**Last updated:** May 18, 2026 — Jeremy (executive README cleanup; STRATEGY and ARCHITECTURE docs added)
 
 ## How this works
 
@@ -44,6 +44,21 @@ The live operational command queue. Updated continuously. If you want to know wh
 | A26 | Walk LO Development through the AI Twin to ALLY caption workflow and persona review responsibilities | Jeremy + LO Dev | May 22 | Pending |
 | A27 | Confirm interim store location for approved LO Persona Profiles (Wave 1 fallback) | Jeremy + LO Dev | May 25 | Pending |
 | A28 | Confirm persona review checklist and SLA with Marketing and LO Dev | Marketing + LO Dev | May 29 | Pending |
+| A29 | Executive README cleanup shipped | Jeremy | May 18 | Complete |
+| A30 | Share STRATEGY and ARCHITECTURE docs with Andre, Thuan, Tara, Thanh, Dat | Jeremy | May 20 | Pending |
+| A31 | Confirm ALLY supported publishing destinations (which channels publish natively vs. store links) | Thanh + Dat via Tara | May 27 | Pending |
+| A32 | Confirm whether ALLY supports Instagram publishing today or only stores Instagram links | Thanh + Dat via Tara | May 27 | Pending |
+| A33 | Confirm whether ALLY supports LinkedIn publishing today or only stores LinkedIn links | Thanh + Dat via Tara | May 27 | Pending |
+| A34 | Confirm whether ALLY supports Google Business Profile posting | Thanh + Dat via Tara | May 27 | Pending |
+| A35 | Confirm whether ALLY supports YouTube or YouTube Shorts | Thanh + Dat via Tara | May 27 | Pending |
+| A36 | Confirm whether ALLY supports group-level accounts or only individual LO accounts | Thanh + Dat via Tara | May 27 | Pending |
+| A37 | Confirm whether "Enhance Caption with AI" can use LO Persona Profile context | Thanh + Dat via Tara | May 27 | Pending |
+| A38 | Confirm newsletter platform owner and stack | Marketing pod lead via Tara | May 27 | Pending |
+| A39 | Confirm Email Drip platform owner and stack | Marketing pod lead via Tara | May 27 | Pending |
+| A40 | Confirm website or landing page template owner and stack (CMS) | Marketing pod lead + TERA via Tara | May 27 | Pending |
+| A41 | Confirm master group record owner (Wave 1 manual, Phase 2 system) | Jeremy + Marketing + TERA | May 22 | Pending |
+| A42 | Confirm compliance process for language-group content (template-level review, bilingual reviewer pool) | Compliance lead | May 29 | Pending |
+| A43 | Confirm whether AI Twin Persona Intake data can be reused for approved LO Persona Profiles | LO Dev + TERA | May 25 | Pending |
 
 ## ALLY discovery items
 

@@ -5,6 +5,10 @@ Week by week, owner by owner. If you're trying to figure out "what's happening t
 Anchor date: **May 14, 2026** — 18 days to launch.
 Target launch: **June 1, 2026.**
 
+## Operating note (May 18 update)
+
+June 1 stays operational and manual. The MVP ships one language group end-to-end on the manual operating model defined in `STRATEGY/ai_boardroom_architecture_readout_summary.md` and `ARCHITECTURE/five_layer_marketing_system_architecture.md`. Technical alignment work runs in **parallel** to launch execution and does not gate June 1. ALLY discovery, LO Persona Profile integration, and the broader Loan Factory AI Twin direction (see `STRATEGY/one_ai_agent_per_loan_officer_strategy_summary.md`) inform Phase 2 design and are tracked in `NEXT_ACTIONS_QUEUE.md`. If a technical answer is not back by its target date, the manual operating model carries the program forward without rework.
+
 ## Phase 0 — Pre-launch (May 14 → May 29)
 
 ### Week 1: May 14–17
